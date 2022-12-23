@@ -117,7 +117,8 @@ This project uses a WiZ smart bulb to communicate with IFTTT and listen for cert
 
 Your smart bulb is ready to go 👍
 
-###  IFTTT
+###  <img width="60" alt="Screenshot 2022-12-23 at 04 45 56" src="https://user-images.githubusercontent.com/97414396/209272649-748b7d04-5e8a-47c2-904f-bcb46b9fc94f.png">
+
 
 This project uses a number of IFTTT applets to fire events based on triggers
 
@@ -130,7 +131,14 @@ This project uses a number of IFTTT applets to fire events based on triggers
 
 You can set your IFTTT applets to do basically whatever you want
 
+## <img width="80" alt="Screenshot 2022-12-23 at 04 47 09" src="https://user-images.githubusercontent.com/97414396/209272767-26221ec8-f791-4764-a503-5e91a12d5fda.png">
 
+This project uses the BLYNK.io app to allow you to take pictures of the greenhouse remotely from your phone. These photos are then emailed to you 
+uploaded to the your firebase dateabase. This is just a bit of fun functionality. It doesn't do much other than just allow you do see what things are looking like in your greenhouse. Such as maybe checking if you left the door open and you don't want to go back outside to check.
+
+To Download and setup blynk go to (https://blynk.io/en/getting-started)
+
+NB: You'll also need to download the mobile version if you want to use blynk on your mobile
 
 ## Some things to note
 
@@ -162,3 +170,14 @@ It's worth noting that the temperature, pressure, and humidity information on th
  * temp = sense.get_temperature - (sense.get_temperature()/100)*33)
  
 This gives a much more accurate reading but it is still by no means perfect. 
+
+
+<img width="60" alt="Screenshot 2022-12-23 at 04 45 56" src="https://user-images.githubusercontent.com/97414396/209272649-748b7d04-5e8a-47c2-904f-bcb46b9fc94f.png">
+
+
+<img width="60" alt="Screenshot 2022-12-23 at 04 47 09" src="https://user-images.githubusercontent.com/97414396/209272767-26221ec8-f791-4764-a503-5e91a12d5fda.png">
+
+
+<img width="50" alt="Screenshot 2022-12-23 at 04 48 11" src="https://user-images.githubusercontent.com/97414396/209272868-31bf8cc5-ac4b-457f-a303-65bcec640f28.png">
+
+<img width="60" alt="Screenshot 2022-12-23 at 04 48 58" src="https://user-images.githubusercontent.com/97414396/209272949-4d664e39-f1e6-4d42-b082-67898247eefa.png">
