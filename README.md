@@ -56,7 +56,7 @@ This tutorial assumes you already have a Raspberry Pi setup. If not here is a us
 
 #### Step 1: Attach the Camera module to the raspberry pi as shown. NB: Be sure to put the camera cable through the sensehat before connecting it to the pi as trying to attach the camera with the sensehat already on the pi is next to impossible.
 
-
+![camPi](https://user-images.githubusercontent.com/97414396/209258802-26bdf978-0233-4342-9d2a-76ef3326954a.jpg)
  
 
 
