@@ -144,3 +144,6 @@ To use Screen:
 
 Linux has the crontab utility to allow you to schedule certian programs to run at specific times. However I have found crontab to be a little unreliable. Therefore I have decided to use the 'Schedule' library to schedule some of the functions in my script:
 
+<img width="500" alt="Screenshot 2022-12-23 at 04 15 30" src="https://user-images.githubusercontent.com/97414396/209269825-36ca1d0f-e240-4519-87fc-4de61be12a1d.png">
+
+* $ pip install schedule
