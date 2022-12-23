@@ -53,6 +53,10 @@ The Software:
 ## The Setup
  
 This tutorial assumes you already have a Raspberry Pi setup. If not here is a useful video for setting up your raspberry Pi [Tom's Hardware] (https://www.tomshardware.com/how-to/set-up-raspberry-pi) 
+
+#### Step 1: Attach the Camera module to the raspberry pi as shown. NB: Be sure to put the camera cable through the sensehat before connecting it to the pi as trying to attach the camera with the sensehat already on the pi is next to impossible.
+
+
  
 
 
