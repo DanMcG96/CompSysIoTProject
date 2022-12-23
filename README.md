@@ -140,6 +140,10 @@ To Download and setup blynk go to (https://blynk.io/en/getting-started)
 
 NB: You'll also need to download the mobile version if you want to use blynk on your mobile
 
+## <img width="60" alt="Screenshot 2022-12-23 at 04 48 11" src="https://user-images.githubusercontent.com/97414396/209272868-31bf8cc5-ac4b-457f-a303-65bcec640f28.png">
+
+Images taken with the PiCamera are uploaded to FireBase and then from FireBase they go to the Glitch website
+
 ## Some things to note
 
 ### SSH Broken-Pipe
