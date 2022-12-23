@@ -25,5 +25,5 @@ The Software:
 * Blynk (https://blynk.io)
 
 ## The Parts
-
-
+### Raspberry Pi
+![rpi](https://user-images.githubusercontent.com/97414396/209255774-4d2619de-9d87-42f0-9e3b-edb9d873a96c.jpg)
