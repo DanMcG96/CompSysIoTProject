@@ -97,7 +97,7 @@ To find your speaker enter the following commands :
 
 You should see a list begin to populate with different MAC addresses. Look for the one that corresponds to your bluetooth speaker and take note of its MAC address
 
-<img width="700" alt="Screenshot 2022-12-23 at 03 05 22" src="https://user-images.githubusercontent.com/97414396/209262738-e2b5d3f7-4ae8-4ee1-87e1-7e2215157e91.png">
+<img width="500" alt="Screenshot 2022-12-23 at 03 05 22" src="https://user-images.githubusercontent.com/97414396/209262738-e2b5d3f7-4ae8-4ee1-87e1-7e2215157e91.png">
 
 To connect your speaker:
 * $pair <SPEAKER_MAC_ADDRESS>
@@ -122,7 +122,7 @@ Your smart bulb is ready to go 👍
 
 This project uses a number of IFTTT applets to fire events based on triggers
 
-![Screenshot 2022-12-23 at 03 39 32](https://user-images.githubusercontent.com/97414396/209266464-34a8a2bb-69ea-45c2-b2b3-827619301448.jpg)
+<img width="500" alt="Screenshot 2022-12-23 at 03 39 32" src="https://user-images.githubusercontent.com/97414396/209330419-6afa6798-0239-4334-9059-f1f0bc5e68be.png">
 
 * The first applet turns the WiZ light blue if the humidity rises above 85% in your local area
 * The second applet turns the WiZ light red if the temperature rises above 21°C
