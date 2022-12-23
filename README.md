@@ -4,6 +4,8 @@
 ## What is it?
 This project is designed to use a number of different IoT devices to basically moniter conditions in a greenhouse and then to send notifications to the user in the case of certian predetermined events. The project is ran from a raspberry pi 4 and was designed using python as the coding language. There is also a rudimentary website that displays data taken from the raspberry pi about the current temperature, pressure and humidity conditions in the greenhouse; as well as a picture of the inside of the greenhouse that is updated daily. (Although feel free to employ a more frequent schedule if you wish). Pictures are stored on FireBase.
 
+### The Website: (https://pineapple-rambunctious-sauroposeidon.glitch.me) 
+
 ## Pre-requisites?
 In order to get started with this project you'll need:
 
@@ -30,7 +32,7 @@ The Software:
 ![rpi](https://user-images.githubusercontent.com/97414396/209255774-4d2619de-9d87-42f0-9e3b-edb9d873a96c.jpg)
 
 ### SenseHat
-![SenseHat](https://user-images.githubusercontent.com/97414396/209256036-ff615347-7664-4f42-bf50-28f8cc872884.jpg)
+![SenseHat](https://user-images.githubusercontent.com/97414396/209256036-ff615347-7664-4f42-bf50-28f8cc872884.jpg) 
 
 ### PIR Sensor (Top)
 ![pir](https://user-images.githubusercontent.com/97414396/209256061-19833bfb-0efc-4d23-b2b3-a97be52bc3bc.jpg)
@@ -138,7 +140,7 @@ To use Screen:
 * To start a new Screen session: $ screen
 * Run your program
 * To check what Screens you have running: $ screen -ls
-* To pass into a a specific Screen session: $ screen -r <ID of your screen session >
+* To pass into a specific Screen session: $ screen -r <ID of your screen session >
 
 ### Scheduling Functions
 
