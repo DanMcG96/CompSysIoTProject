@@ -44,10 +44,16 @@ The Software:
 ### Raspberry Pi Setup
 ![setup](https://user-images.githubusercontent.com/97414396/209256083-64edeb81-a5b6-4ea5-a255-406eb1ac94c3.jpg)
 
+###  The Smart Bulb
+![bulb](https://user-images.githubusercontent.com/97414396/209256842-71060244-c5e4-452d-b778-fe3a20e206f6.jpg)
 
+### The Speaker
+![speaker](https://user-images.githubusercontent.com/97414396/209256854-a002fa8c-be90-4336-a16a-8d8fc1ba5833.jpg)
 
-
-
+## The Setup
+ 
+This tutorial assumes you already have a Raspberry Pi setup. If not here is a useful video for setting up your raspberry Pi [Tom's Hardware] (https://www.tomshardware.com/how-to/set-up-raspberry-pi) 
+ 
 
 
 
