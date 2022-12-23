@@ -130,6 +130,8 @@ This project uses a number of IFTTT applets to fire events based on triggers
 
 You can set your IFTTT applets to do basically whatever you want
 
+
+
 ## Some things to note
 
 ### SSH Broken-Pipe
@@ -148,10 +150,10 @@ To use Screen:
 ### Scheduling Functions
 
 Linux has the crontab utility to allow you to schedule certian programs to run at specific times. However I have found crontab to be a little unreliable. Therefore I have decided to use the 'Schedule' library to schedule some of the functions in my script:
-
+ 
+ * $ pip install schedule
+ 
 <img width="500" alt="Screenshot 2022-12-23 at 04 15 30" src="https://user-images.githubusercontent.com/97414396/209269825-36ca1d0f-e240-4519-87fc-4de61be12a1d.png">
-
-* $ pip install schedule
  
  ## Issues 😦
  
