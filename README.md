@@ -19,7 +19,7 @@ The Hardware:
 The Software:
 
 * Raspbian OS (I use headless and connect over ssh but GUI is fine too)
-* IFTTT
+* IFTTT [IFTTT] (https://ifttt.com)
 * ThingSpeak
 * FireBase
 * Blynk
