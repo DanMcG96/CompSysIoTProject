@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Mum's GreenHouse</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+     <center>
+      Mum's GreenHouse
+    </center>
+    </h1>  
+    
+    <p>
+      <center>
+        Picture of the day: <span id="time"></span>
+      </center>
+      <center>
+      <img id="photo" height="500" width="600"/>
+      </center>
+    </p>
+    <p>
+      
+    </p>
+    <table width="100%">
+  <tr>
+  <td width="33%">
+    <p>
+      <center>
+        <iframe width="450" height="250" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1989787/charts/1?bgcolor=%23fbbfbf&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe> 
+      </center>    
+    </p>
+  </td>  
+  <td width="33%">
+    <p>
+      <center>
+        <iframe width="450" height="250" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1989787/charts/2?bgcolor=%23bffbff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>    
+      </center>
+    </p>
+  </td>
+  <td width="33%">
+    <p>
+      <center>
+        <iframe width="450" height="250" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1989787/charts/3?bgcolor=%23bfedbf&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>    
+      </center>
+    </p>
+  </td>
+  </tr>
+</table>
+  </body>
+</html>
+
+
