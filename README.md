@@ -72,7 +72,7 @@ Connect the PIR Sensor to the PI as shown. Ideally you would use a pin extender 
 
 Attach the SenseHat to the Pi as shown
 
-
+![20221223_024303-1](https://user-images.githubusercontent.com/97414396/209261011-ead6fd92-183a-4547-bdb9-3da01b12a0ae.jpg)
 
 That's the Pi setup complete. 👍
 
