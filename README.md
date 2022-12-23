@@ -15,3 +15,12 @@ The Hardware:
 * Raspberry Pi SenseHat
 * Smart Light (I use a WiX smart bulb, but you can go for a Philips Hue if you're feeling fancy)
 * Bluetooth Speaker
+
+The Software:
+
+* Raspbian OS (I use headless and connect over ssh but GUI is fine too)
+* IFTTT
+* ThingSpeak
+* FireBase
+* Blynk
+
