@@ -67,9 +67,9 @@ This tutorial assumes you already have a Raspberry Pi setup. If not here is a us
 
 Connect the PIR Sensor to the PI as shown. Ideally you would use a pin extender to attach the PIR sensor on top of the SenseHat but since I don't have an extender I had to improvise.
  
-*Connect the VCC pin on the PIR to Pin 2 on the Pi
-*Connect the OUT pin on the PIR to Pin 6 on the Pi
-*Connect the GROUND pin on the PIR to pin 12 on the Pi
+* Connect the VCC pin on the PIR to Pin 2 on the Pi
+* Connect the OUT pin on the PIR to Pin 6 on the Pi
+* Connect the GROUND pin on the PIR to pin 12 on the Pi
 
 ![20221223_023228](https://user-images.githubusercontent.com/97414396/209259407-3ca5ef7b-b622-43c4-83d7-c37364958097.jpg)
 
@@ -152,3 +152,11 @@ Linux has the crontab utility to allow you to schedule certian programs to run a
 <img width="500" alt="Screenshot 2022-12-23 at 04 15 30" src="https://user-images.githubusercontent.com/97414396/209269825-36ca1d0f-e240-4519-87fc-4de61be12a1d.png">
 
 * $ pip install schedule
+ 
+ ## Issues 😦
+ 
+It's worth noting that the temperature, pressure, and humidity information on the website is being taken from measurements made on the SenseHat. The SenseHat has a notable issue when it comes to its temperature readings being significantly off from the actual value. This is due to the temperature sensor recieving heat from the pi's CPU and also the SenseHat just isn't that great of a temperature sensor. To compensate for this issue I have used to following formula:
+ 
+ * temp = sense.get_temperature - (sense.get_temperature()/100)*33)
+ 
+This gives a much more accurate reading but it is still by no means perfect. 
