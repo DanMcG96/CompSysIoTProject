@@ -12,6 +12,7 @@ The Hardware:
 * Raspberry Pi (I use a Pi 4 Model B) but I'm fairly sure a Pi 3 should be fine
 * Raspberry Camera Module V2 (Again different pi cameras should be fine)
 * PIR motion sensor (NB: Make sure it's one that can be easily connected to GPIO board)
+* Fly Cables
 * Raspberry Pi SenseHat
 * Smart Light (I use a WiX smart bulb, but you can go for a Philips Hue if you're feeling fancy)
 * Bluetooth Speaker
@@ -27,3 +28,29 @@ The Software:
 ## The Parts
 ### Raspberry Pi
 ![rpi](https://user-images.githubusercontent.com/97414396/209255774-4d2619de-9d87-42f0-9e3b-edb9d873a96c.jpg)
+
+### SenseHat
+![SenseHat](https://user-images.githubusercontent.com/97414396/209256036-ff615347-7664-4f42-bf50-28f8cc872884.jpg)
+
+### PIR Sensor (Top)
+![pir](https://user-images.githubusercontent.com/97414396/209256061-19833bfb-0efc-4d23-b2b3-a97be52bc3bc.jpg)
+
+### PIR (Bottom)
+![pirback](https://user-images.githubusercontent.com/97414396/209256071-578341c2-805a-4321-8540-01a9eb581ac4.jpg)
+
+### Pi Camera Module
+![picam](https://user-images.githubusercontent.com/97414396/209256075-0f9ae391-2389-4299-90c0-d200ce787975.jpg)
+
+### Raspberry Pi Setup
+![setup](https://user-images.githubusercontent.com/97414396/209256083-64edeb81-a5b6-4ea5-a255-406eb1ac94c3.jpg)
+
+
+
+
+
+
+
+
+
+
+
