@@ -76,6 +76,32 @@ Attach the SenseHat to the Pi as shown
 
 That's the Pi setup complete. 👍
 
+## The External Hardware
+
+### Connecting your bluetooth speaker.
+
+#### The following step requires that you know the bluetooth name of your speaker or its MAC address
+
+Connecting your speaker to your raspberry pi requires a few commands to be entered into the command line. Luckily though, when you have the speaker connected to the pi it should automatically reconnect whenever you need. 
+
+To find your speaker enter the following commands :
+* $bluetoothctl
+* $power on
+* $agent on
+* $scan on
+
+You should see a list begin to populate with different MAC addresses. Look for the one that corresponds to your bluetooth speaker and take note of its MAC address
+
+<img width="700" alt="Screenshot 2022-12-23 at 03 05 22" src="https://user-images.githubusercontent.com/97414396/209262738-e2b5d3f7-4ae8-4ee1-87e1-7e2215157e91.png">
+
+To connect your speaker:
+* $pair <SPEAKER_MAC_ADDRESS>
+* $trust <SPEAKER_MAC_ADDRESS>
+
+You can check if the speaker is paired by typing:
+* $paired-devices
+
+The bluetooth speaker should now be connected 👍
 
 
 
