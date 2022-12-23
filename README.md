@@ -4,6 +4,9 @@
 ## What is it?
 This project is designed to use a number of different IoT devices to basically moniter conditions in a greenhouse and then to send notifications to the user in the case of certian predetermined events. The project is ran from a raspberry pi 4 and was designed using python as the coding language. There is also a rudimentary website that displays data taken from the raspberry pi about the current temperature, pressure and humidity conditions in the greenhouse; as well as a picture of the inside of the greenhouse that is updated daily. (Although feel free to employ a more frequent schedule if you wish). Pictures are stored on FireBase.
 
+
+<img width="80" alt="Screenshot 2022-12-23 at 04 22 25" src="https://user-images.githubusercontent.com/97414396/209270456-472f0be5-e150-4f1c-8b64-3c4eb7d06c08.png">
+
 ### The Website: (https://pineapple-rambunctious-sauroposeidon.glitch.me) 
 
 ## Pre-requisites?
