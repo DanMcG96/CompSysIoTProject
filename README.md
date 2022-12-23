@@ -58,7 +58,23 @@ This tutorial assumes you already have a Raspberry Pi setup. If not here is a us
 
 ![camPi](https://user-images.githubusercontent.com/97414396/209258802-26bdf978-0233-4342-9d2a-76ef3326954a.jpg)
  
+### Step 2:
 
+Connect the PIR Sensor to the PI as shown. Ideally you would use a pin extender to attach the PIR sensor on top of the SenseHat but since I don't have an extender I had to improvise.
+ 
+*Connect the VCC pin on the PIR to Pin 2 on the Pi
+*Connect the OUT pin on the PIR to Pin 6 on the Pi
+*Connect the GROUND pin on the PIR to pin 12 on the Pi
+
+![20221223_023228](https://user-images.githubusercontent.com/97414396/209259407-3ca5ef7b-b622-43c4-83d7-c37364958097.jpg)
+
+### Step 3:
+
+Attach the SenseHat to the Pi as shown
+
+
+
+That's the Pi setup complete. 👍
 
 
 
